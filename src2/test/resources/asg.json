@@ -1,0 +1,20 @@
+{
+  "messageAttributes": {},
+  "signingCertUrl": "https://sns.region.amazonaws.com/SimpleNotificationService-bb750dd426d95ee9390147a5624348ee.pem",
+  "messageId": "messageId",
+  "message": "{\"StatusCode\":\"InProgress\",\"Service\":\"AWS Auto Scaling\",\"AutoScalingGroupName\":\"20160226T035008Z\",\"Description\":\"Launching a new EC2 instance: i-0c341df5\",\"ActivityId\":\"f94d2afe-5403-4516-b189-04f0223589cb\",\"Event\":\"autoscaling:EC2_INSTANCE_LAUNCH\",\"Details\":{\"Availability Zone\":\"regione\",\"Subnet ID\":\"subnet-00000000\"},\"AutoScalingGroupARN\":\"arn:aws:autoscaling:region:695752756382:autoScalingGroup:bbd92db4-bad5-465e-98b4-810d829531ae:autoScalingGroupName/20160226T035008Z\",\"Progress\":50,\"Time\":\"2016-03-01T08:12:42.234Z\",\"AccountId\":\"695752756382\",\"RequestId\":\"f94d2afe-5403-4516-b189-04f0223589cb\",\"StatusMessage\":\"\",\"EndTime\":\"2016-03-01T08:12:42.234Z\",\"EC2InstanceId\":\"i-0c341df5\",\"StartTime\":\"2016-03-01T08:11:18.618Z\",\"Cause\":\"At 2016-03-01T08:10:40Z a user request update of AutoScalingGroup constraints to min: 1, max: 2, desired: 2 changing the desired capacity from 1 to 2.  At 2016-03-01T08:11:14Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 1 to 2.\"}",
+  "subject": "Auto Scaling: launch for group \"20160226T035008Z\"",
+  "unsubscribeUrl": "https://sns.region.amazonaws.com/?Action\u003dUnsubscribe\u0026SubscriptionArn\u003darn:aws:sns:region:695752756382:sandbox:0035c490-ab25-4e31-9b0e-6fee7c3ac0d1",
+  "type": "Notification",
+  "signatureVersion": "1",
+  "signature": "signature",
+  "timestamp": {
+    "iMillis": 1456819962303,
+    "iChronology": {
+      "iBase": {
+        "iMinDaysInFirstWeek": 4
+      }
+    }
+  },
+  "topicArn": "arn:aws:sns:region:695752756382:sandbox"
+}

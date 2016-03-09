@@ -1,0 +1,44 @@
+{
+  "description": "A published notification message",
+  "type": "object",
+  "properties": {
+    "Message": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4096
+    },
+    "MessageId": {
+      "type": "string",
+      "identity": true
+    },
+    "Signature": {
+      "type": "string"
+    },
+    "SignatureVersion": {
+      "type": "string",
+      "enum": [
+        "1"
+      ]
+    },
+    "Subject": {
+      "type": "string",
+      "optional": true
+    },
+    "Timestamp": {
+      "type": "string"
+    },
+    "TopicArn": {
+      "type": "string",
+      "maxLength": 1224
+    },
+    "Type": {
+      "type": "string",
+      "enum": [
+        "Notification"
+      ]
+    },
+    "UnsubscribeURL": {
+      "type": "string"
+    }
+  }
+}
